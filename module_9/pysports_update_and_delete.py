@@ -31,7 +31,7 @@ try:
     add_player = ("INSERT INTO player(first_name, last_name, team_id)"
                  "VALUES(%s, %s, %s)")
 
-    player_data = ("Smeagol", "Shire Folk", 1)
+    player_data = ("Jim", "Halpert", 1)
 
     cursor.execute(add_player, player_data)
 
